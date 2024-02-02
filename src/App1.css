@@ -1,0 +1,648 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+
+.d-flex{
+  display: flex;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.pd-y{
+  padding: 80px 0;
+}
+
+.w-33{
+  width: 33%;
+  padding: 0 12px;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+/* ----------------------------------TOP-MENU CSS START---------------------------- */
+.top-menu .d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-menu{
+  background-color: #003366;
+  padding: 12px 0;
+  color: aliceblue;
+  font-weight: 400;
+}
+
+.right .icon{
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.right .mail{
+  margin-right: 15px;
+}
+
+.top-menu .socail{
+  margin: 0 4px;
+  font-size: 20px;
+}
+/* ----------------------------------TOP-MENU CSS END---------------------------- */
+/* ----------------------------------MAIN-MENU CSS START---------------------------- */
+.menu{
+  padding: 10px 0;
+}
+
+.menu .d-flex{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img{
+  height: 60px;
+}
+
+.main-menu li a{
+  padding: 10px 15px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+} 
+
+.menu_icon{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-35%);
+  margin-left: 1px;
+}
+
+/* ----------------------------------MAIN-MENU CSS END---------------------------- */
+/* ----------------------------------SLIDER CSS START---------------------------- */
+.slider img{
+  width: 100%;
+}
+/* ----------------------------------SLIDER CSS END---------------------------- */
+/* ----------------------------------CREATIVE COURSE CSS START-------------------------- */
+
+
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: 42%;
+  top: 50%;
+  margin-right: 10px;
+}
+
+.course-head
+{
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.course h1{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.course-img{
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.course-img .w-33{
+  width: calc(33.33% - 24px);
+  padding: 0 12px;
+}
+
+.course-img img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px ;
+}
+
+.course-img .content{
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  box-shadow: 0px 0px 7px black;
+}
+
+.course-img .content h2{
+  padding: 2px 0px 10px 15px;
+  font-weight: 500;
+}
+
+.course-img .d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-img .w-33{
+  margin-bottom: 24px;
+}
+
+.course-bottom{
+  padding: 15px 15px;
+}
+
+.course-bottom .social{
+  color: darkgoldenrod;
+  font-size: 20px;
+}
+
+.course-btn button{
+  background-color: #003366;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 17px;
+
+}
+
+.course-btn a{
+  color: white;
+}
+
+.btn-all-courses{
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+}
+
+.btn-all-courses a{
+  background-color: goldenrod;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.btn-all-courses .arrow{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ----------------------------------CREATIVE COURSE CSS END---------------------------- */
+/* ---------------------------------- ABOUT US CSS START---------------------------- */
+.about img{
+  height: 400px;
+}
+
+.about-img{
+  position: absolute;
+  right: 0;
+  z-index: -100;
+}
+
+.about-img::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.about .d-flex{
+  justify-content: space-between;
+}
+
+.about-content{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0,0.3);
+  border-radius: 0px 300px 300px 0px;
+  position: relative;
+  width: 64%;
+  height: 350px;
+  top: -25px;
+  background-color: white;
+}
+
+
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
+
+.about-head
+{
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 30px;
+  /* margin-top: 50px; */
+}
+
+.about h1{
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.about .detail{
+  margin-top: 20px;
+  text-align: justify;
+  color: #888888;
+  font-size: 16px;
+}
+
+.about-content{
+  padding: 50px 0 40px 0;
+}
+
+.about-btn{
+  border: none;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.about-btn a{
+  background-color: goldenrod;
+  color: white;
+  padding: 15px 40px 15px 30px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.about-btn .arrow{
+  font-size: 20px;
+  position: absolute;
+}
+
+/* ---------------------------------- ABOUT US CSS END------------------------------ */
+/* ---------------------------------- COUNTING CSS START------------------------------ */
+.count{
+  position: relative;
+}
+.count::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+.w-25{
+  width: 25%;
+}
+
+.count-icon{
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+
+.c-1 h1{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.c-1 h2{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 71%;
+  left: 14.3%;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.c-2 h1{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+}
+
+.c-2 h2{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 71%;
+  left: 32.5%;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.c-3 h1{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 57.3%;
+}
+
+.c-3 h2{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 71%;
+  left: 54%;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.c-4 h1{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 76%;
+}
+
+.c-4 h2{
+  color: white;
+  z-index: 10;
+  position: absolute;
+  top: 71%;
+  left: 74.3%;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/* ---------------------------------- COUNTING CSS END-------------------------------- */
+/* ---------------------------------- HAPPY STUDENTS CSS START------------------------ */
+.w-50{
+  width: 50%;
+}
+
+.line{
+  height: 3px;
+  width: 20px;
+  background-color: orange;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+}
+
+.happy-head
+{
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 30px;
+  /* margin-top: 50px; */
+}
+
+.happy h1{
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.happy-icon
+{
+  font-size: 100px;
+  color: rgba(0, 0, 0,0.08);
+  margin-top:30px;
+}
+
+.happy .detail{
+  text-align: justify;
+  color: #888888;
+}
+.happy-bottom{
+  align-items: center;
+  margin-top: 30px;
+}
+.happy-bottom img{
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.bottom-con h3{
+  color: #003366;
+  margin-bottom: 5px;
+}
+
+.bottom-con h5 i{
+  color: gold;
+}
+
+.bottom-con h5 span{
+  color: #888888;
+  font-style: italic;
+}
+
+.happy-img img{
+  height: 500px;
+  width: 500px;
+}
+
+.happy-img{
+  margin-left: 80px;
+}
+
+/* ---------------------------------- READ OUR DIFFERENCE START-------------------------- */
+
+
+.read{
+  background-color: #F7F7F7;
+}
+.read .row{
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.read .box2{
+  background-color: var(--white);
+  width:250px; 
+  padding: 90px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(101, 101, 101, 0.1);
+  transition: .3s;
+}
+.read .box2 .img{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+.read .box2 .img img{
+  border-radius: 50%;
+  width: 100%;
+}
+.read .box2 .desc h5{
+  text-align: center;
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin:12px 0 8px 0;
+}
+.read .box2 .desc p{
+  color: #888888;
+  text-align: center;
+  font-size: 16px;
+}
+/* ----------------------------------READ OUR DIFFERENCE END-------------------------- */
+
+/* Partners Css Start */
+
+.partner .box{
+  width: 172px;
+  margin-right: 15px;
+  border: 1px solid #ddd;
+}
+
+/* partner Css End */
+
+/* Widget Css Start */
+
+widget h5{
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.tag a{
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin: 0 5px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+} 
+/* Widget Css END */
+
+/* Footer Css Start */
+
+.space{
+  padding-top: 50px;
+  /* background-color: #6f42c1; */
+}
+.footer{
+  background: #6f42c1;  
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.footer .box{
+  border: 0;
+  padding: 0 20px;
+}
+.footer .logo{
+  margin-bottom: 15px;
+  width: 250px;
+  color: white;
+}
+.footer p{
+  color: white;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+.footer .box h6{
+  color: yellow;
+  font-size: 16px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.footer .social li{
+  padding: 4px;
+  display: inline-block;
+}
+.footer .social li a{
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: center;
+  transition: .3s;
+}
+.footer .social li a:hover{
+  color: yellow;
+}
+.footer .box .links li{
+  padding: 0 0 15px;
+}
+.footer .links a{
+  color: white;
+  font-size: 14px;
+  transition: .3s;
+}
+.footer .head h6{
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.footer .head h6 a{
+  color: yellow;
+  transition: .3s;
+}
+.footer .head span{
+  color: white;
+}
+.footer .head a{
+  color: yellow;
+}
+.footer .branch li{
+  margin-bottom: 15px;
+}
+
+.footer .branch a{
+  color: white;
+  display: flex;
+  align-items: center;
+  transition: .3s;
+}
+.copyright{
+  padding: 30px 0;
+  background-color: #072044;  
+}
+.copyright p{
+  color: white;
+}
+
+/* Footer Css End */
+
+
+
+
+
